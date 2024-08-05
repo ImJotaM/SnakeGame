@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EntryPoint">
+      <UniqueIdentifier>{63892f19-4925-4026-8d7b-c73caa9d2e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SnakeGame">
+      <UniqueIdentifier>{24c658ad-ab15-4120-8d9b-0b16a9d14e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dep">
+      <UniqueIdentifier>{355227b5-9cb5-4d17-b3d1-8861fb467a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dep\Basics">
+      <UniqueIdentifier>{77074e49-13fa-4575-a01c-c6859ba87bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dep\Events">
+      <UniqueIdentifier>{3bcec7d6-c6af-4c13-bc4d-de595b0e9fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dep\Rendering">
+      <UniqueIdentifier>{a8879493-e4c0-43b8-9bc7-869abd886444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dep\Drawables">
+      <UniqueIdentifier>{0eaa5635-5785-4098-b274-93ae00aa7af2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeGame\Game.cpp">
+      <Filter>SnakeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeGame\Dep\Window.cpp">
+      <Filter>Dep\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeGame\Dep\Event.cpp">
+      <Filter>Dep\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeGame\Dep\Renderer.cpp">
+      <Filter>Dep\Rendering</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SnakeGame\Core.h">
+      <Filter>SnakeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeGame\Dep\Dep.h">
+      <Filter>Dep</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeGame\Dep\Window.h">
+      <Filter>Dep\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeGame\Dep\Event.h">
+      <Filter>Dep\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeGame\Dep\Basics.h">
+      <Filter>Dep\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeGame\Dep\Renderer.h">
+      <Filter>Dep\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeGame\Dep\Shape.h">
+      <Filter>Dep\Drawables</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
